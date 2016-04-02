@@ -28,3 +28,10 @@ Based on Fedora 23, contains all runtime dependencies to run unittests of a C++/
 For executing GUI unittests in a headless environment, it contains Xvfb, the
 virtual framebuffer X server. That X server is the entrypoint of the container.
 
+### fedora/mingw64-devel
+
+Based on Fedora 23, contains everything to cross-compile a C/C++/Boost/Qt5 project to Windows (64 bit).
+
+### fedora/mingw64-runtime
+
+Based on Fedora, contains everything to run console based windows binaries (64 bit) under wine.
