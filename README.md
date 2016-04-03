@@ -2,7 +2,7 @@ Repository of docker images
 
 See also https://hub.docker.com/u/gsauthof/ for the built images.
 
-2016, Georg Sauthoff <mail@geor.gso>
+2016, Georg Sauthoff <mail@georg.so>
 
 
 ## Images
@@ -35,3 +35,17 @@ Based on Fedora 23, contains everything to cross-compile a C/C++/Boost/Qt5 proje
 ### fedora/mingw64-runtime
 
 Based on Fedora, contains everything to run console based windows binaries (64 bit) under wine.
+
+
+## Automated Builds
+
+The docker images available at https://hub.docker.com/u/gsauthof/ are automatically
+created when something is pushed to this github repository.
+
+Besides simplifying the deployment this should also increase the transparency of the
+created binary images.
+
+Note that until 2016-04-03, the cxx-devel/runtime images were published as
+standard docker repositories. Not as automated builds. On 2016-04-03 those old
+repositories were deleted and replaced with automate build repositories that
+have the same names.
