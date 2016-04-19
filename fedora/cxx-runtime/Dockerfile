@@ -2,9 +2,13 @@ FROM fedora:23
 
 MAINTAINER Georg Sauthoff <mail@georg.so>
 
+# gcc is included because it provides gcov
+
 RUN dnf -y install \
     boost \
     findutils \
+    gcc \
+    lcov \
     libasan \
     liblsan \
     libtsan \
