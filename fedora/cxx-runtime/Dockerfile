@@ -14,20 +14,21 @@ RUN dnf -y install \
     libtsan \
     libubsan \
     libxml2 \
+    lua \
+    luajit \
     openbox \
     procps-ng \
     qt5-qtbase \
     qt5-qtsvg \
+    xfwm4 \
     xorg-x11-server-Xvfb \
   && dnf clean all
+
 # openbox is more leightweight than xfwm4,
 # but xfwm4 pulls in some gtk libraries in which are needed
 # when running with DESKTOP_SESSION=gnome
 # Also, xfwm4 seems to be more reliable regarding
 # QApplicateion::focusWidget() || activeWindow()
-RUN dnf -y install \
-    xfwm4 \
-  && dnf clean all
 
 # mount points for mapping source code and
 # build directories

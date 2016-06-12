@@ -22,6 +22,8 @@ RUN dnf -y install \
     libubsan \
     libubsan-static \
     libxml2-devel \
+    lua-devel \
+    luajit-devel \
     make \
     ninja-build \
     procps-ng \
