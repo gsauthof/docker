@@ -9,7 +9,7 @@ See also https://hub.docker.com/u/gsauthof/ for the built images.
 
 ### fedora/cxx-devel
 
-Layered on top of the official Fedora 23 image. Includes everything one needs
+Layered on top of the official Fedora 25 image. Includes everything one needs
 to compile a >= C++11 project that uses relatively recent version of Boost/Qt5/libxml2 etc.
 
 Also includes:
@@ -23,7 +23,7 @@ The entrypoint of the container is `/usr/bin/sleep infinity`, such that one can 
 
 ### fedora/cxx-runtime
 
-Based on Fedora 23, contains all runtime dependencies to run unittests of a C++/Boost/Qt5 project.
+Based on Fedora 25, contains all runtime dependencies to run unittests of a C++/Boost/Qt5 project.
 
 For executing GUI unittests in a headless environment, it contains Xvfb, the
 virtual framebuffer X server. That X server is the entrypoint of the container.
