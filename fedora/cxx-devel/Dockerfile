@@ -28,6 +28,7 @@ RUN dnf -y install \
     ninja-build \
     procps-ng \
     python3-psutil \
+    python3-pytest \
     qt5-qtbase-devel \
     qt5-qtsvg-devel \
     ragel \
