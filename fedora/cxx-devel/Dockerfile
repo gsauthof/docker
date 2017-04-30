@@ -26,6 +26,7 @@ RUN dnf -y install \
     luajit-devel \
     make \
     ninja-build \
+    openssl-devel \
     procps-ng \
     python3-psutil \
     python3-pytest \
