@@ -22,9 +22,11 @@ RUN dnf -y install \
     libubsan \
     libubsan-static \
     libxml2-devel \
+    llvm \
     lua-devel \
     luajit-devel \
     make \
+    meson \
     ninja-build \
     openssl-devel \
     procps-ng \
