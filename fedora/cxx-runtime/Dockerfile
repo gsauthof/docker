@@ -14,6 +14,7 @@ RUN dnf -y install \
     libtsan \
     libubsan \
     libxml2 \
+    llvm \
     lua \
     luajit \
     openbox \
