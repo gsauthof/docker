@@ -8,6 +8,7 @@ RUN dnf -y install \
     boost \
     findutils \
     gcc \
+    glibc.i686 \
     lcov \
     libasan \
     liblsan \

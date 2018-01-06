@@ -12,6 +12,7 @@ RUN dnf -y install \
     gcc \
     gcc-c++ \
     git \
+    glibc-devel.i686 \
     lcov \
     libasan \
     libasan-static \
