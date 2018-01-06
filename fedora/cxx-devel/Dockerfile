@@ -11,6 +11,7 @@ RUN dnf -y install \
     flex \
     gcc \
     gcc-c++ \
+    gdb \
     git \
     glibc-devel \
     glibc-devel.i686 \
