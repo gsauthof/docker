@@ -1,4 +1,4 @@
-FROM fedora:25
+FROM fedora:27
 
 MAINTAINER Georg Sauthoff <mail@georg.so>
 
