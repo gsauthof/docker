@@ -28,6 +28,7 @@ RUN dnf -y install \
     llvm \
     lua-devel \
     luajit-devel \
+    lz4 \
     make \
     meson \
     ninja-build \
@@ -38,6 +39,7 @@ RUN dnf -y install \
     qt5-qtbase-devel \
     qt5-qtsvg-devel \
     ragel \
+    zstd \
   && dnf clean all
 
 # mount points for mapping source code and
