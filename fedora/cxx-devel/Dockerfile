@@ -5,6 +5,7 @@ MAINTAINER Georg Sauthoff <mail@georg.so>
 RUN dnf -y install \
     bison \
     boost-devel \
+    bzip2 \
     clang \
     cmake \
     findutils \
@@ -39,6 +40,7 @@ RUN dnf -y install \
     qt5-qtbase-devel \
     qt5-qtsvg-devel \
     ragel \
+    xz \
     zstd \
   && dnf clean all
 
